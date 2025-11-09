@@ -9,7 +9,6 @@ public class LinearSearch : MonoBehaviour
     void Start()
     {
         Debug.Log(LinearSearchMethod());
-        
     }
 
     public string LinearSearchMethod()
@@ -26,6 +25,4 @@ public class LinearSearch : MonoBehaviour
         }
         return "item not found";
     }
-
-    
 }
